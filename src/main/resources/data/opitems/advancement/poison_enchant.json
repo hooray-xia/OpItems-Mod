@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:poison"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.opitems.poison-enchant.title"
+    },
+    "description": {
+      "translate": "advancements.opitems.poison-enchant.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:story/enchant_item",
+  "criteria": {
+    "obtain_poison_enchantment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_sword",
+              "minecraft:stone_sword",
+              "minecraft:iron_sword",
+              "minecraft:copper_sword",
+              "minecraft:golden_sword",
+              "minecraft:diamond_sword",
+              "minecraft:netherite_sword",
+              "opitems:rainbow_blade",
+              "opitems:wither_blade",
+              "opitems:dragon_blade"
+            ],
+            "components": {
+              "minecraft:enchantments": {
+                "levels": {
+                  "opitems:poison": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_poison_enchantment"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

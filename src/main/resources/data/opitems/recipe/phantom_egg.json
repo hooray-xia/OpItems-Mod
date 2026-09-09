@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#PE"
+  ],
+  "key": {
+    "#": "minecraft:feather",
+    "P": "minecraft:phantom_membrane",
+    "E": "minecraft:egg"
+  },
+  "result": {
+    "id": "minecraft:phantom_spawn_egg"
+  }
+}

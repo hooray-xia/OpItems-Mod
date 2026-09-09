@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Do",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": "minecraft:water_bucket",
+    "D": "minecraft:dried_ghast",
+    "o": "minecraft:egg"
+  },
+  "result": {
+    "id": "minecraft:happy_ghast_spawn_egg"
+  }
+}

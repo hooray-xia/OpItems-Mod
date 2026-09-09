@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "id": "opitems:enchanted_diamond_apple"
+        },
+        "title": {
+            "translate": "advancements.opitems.diamond-apple.title"
+        },
+        "description": {
+            "translate": "advancements.opitems.diamond-apple.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+        "has_diamond_apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "opitems:diamond_apple",
+                            "opitems:emerald_apple",
+                            "opitems:enchanted_emerald_apple",
+                            "opitems:enchanted_diamond_apple",
+                            "opitems:enchanted_obsidian_apple",
+                            "opitems:obsidian_apple",
+                            "minecraft:enchanted_golden_apple",
+                            "minecraft:golden_apple"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_diamond_apple"
+        ]
+    ],
+    "rewards": {
+        "experience": 200
+    }
+}

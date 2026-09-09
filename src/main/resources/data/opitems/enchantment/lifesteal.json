@@ -1,0 +1,33 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.opitems.lifesteal",
+    "color": "red"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "opitems:lifesteal"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 15
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 1
+}

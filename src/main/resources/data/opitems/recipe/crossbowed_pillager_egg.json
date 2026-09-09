@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " ) ",
+    "   "
+  ],
+  "key": {
+    "#": "minecraft:villager_spawn_egg",
+    ")": "minecraft:crossbow"
+  },
+  "result": {
+    "id": "minecraft:pillager_spawn_egg"
+  }
+}

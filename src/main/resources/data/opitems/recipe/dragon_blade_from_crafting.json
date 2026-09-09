@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " N ",
+        "ODO",
+        "ESE"
+    ],
+    "key": {
+        "N": "minecraft:netherite_ingot",
+        "S": "minecraft:netherite_sword",
+        "D": "minecraft:dragon_egg",
+        "O": "minecraft:obsidian",
+        "E": "minecraft:end_stone"
+    },
+    "result": {
+        "id": "opitems:dragon_blade",
+        "count": 1
+    }
+}

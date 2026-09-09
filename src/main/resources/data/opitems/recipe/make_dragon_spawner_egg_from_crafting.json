@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "eSe",
+    " S "
+  ],
+  "key": {
+    "#": "minecraft:end_rod",
+    "E": "minecraft:end_crystal",
+    "e": "minecraft:ender_eye",
+    "S": "minecraft:egg"
+  },
+  "result": {
+    "id": "minecraft:ender_dragon_spawn_egg"
+  }
+}

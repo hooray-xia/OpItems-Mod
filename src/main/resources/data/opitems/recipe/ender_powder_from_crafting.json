@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#O#",
+    "B#B"
+  ],
+  "key": {
+    "#": "minecraft:end_stone",
+    "O": "minecraft:ender_pearl",
+    "B": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "opitems:ender_powder",
+    "count": 4
+  }
+}

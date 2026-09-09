@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ADA",
+    "DND",
+    "ADA"
+  ],
+  "key": {
+    "D": "opitems:rainbow_ingot",
+    "N": "opitems:enchant_star",
+    "A": "minecraft:lapis_block"
+  },
+  "result": {
+    "id": "opitems:super_enchant_star",
+    "count": 1
+  }
+}

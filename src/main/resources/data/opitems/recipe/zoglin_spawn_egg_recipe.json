@@ -1,0 +1,16 @@
+﻿{
+    "key":  {
+                "E":  "minecraft:hoglin_spawn_egg",
+                "M":  "minecraft:rotten_flesh"
+            },
+    "pattern":  [
+                    "MMM",
+                    "MEM",
+                    "MMM"
+                ],
+    "result":  {
+                   "id":  "minecraft:zoglin_spawn_egg",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "opitems:start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "opitems:secret_treasure",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "opitems:foods_galore",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

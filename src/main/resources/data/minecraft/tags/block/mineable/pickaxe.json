@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "opitems:rainbow_block",
+    "opitems:compressed_obsidian",
+    "opitems:rainbow_ore",
+    "opitems:deepslate_rainbow_ore",
+    "opitems:echo_prism"
+  ]
+}

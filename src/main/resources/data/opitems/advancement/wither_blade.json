@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "opitems:wither_blade"
+        },
+        "title": {
+            "translate": "advancements.opitems.wither_blade.title",
+            "color": "dark_purple"
+        },
+        "description": {
+            "translate": "advancements.opitems.wither_blade.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:nether/summon_wither",
+    "criteria": {
+        "has_wither_blade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "opitems:wither_blade"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_wither_blade"
+        ]
+    ],
+    "rewards": {
+        "experience": 500
+    }
+}

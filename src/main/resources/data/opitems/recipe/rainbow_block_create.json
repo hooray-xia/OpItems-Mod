@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": "minecraft:redstone_block",
+    "B": "minecraft:resin_bricks",
+    "C": "minecraft:gold_block",
+    "D": "minecraft:emerald_block",
+    "E": "minecraft:diamond_block",
+    "F": "minecraft:lapis_block",
+    "G": "minecraft:iron_block",
+    "H": "minecraft:netherite_block",
+    "I": "opitems:compressed_obsidian"
+  },
+  "result": {
+    "id": "opitems:rainbow_block",
+    "count": 4
+  }
+}

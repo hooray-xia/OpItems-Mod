@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+      "opitems:poison",
+      "opitems:wither",
+      "opitems:reach",
+      "opitems:lightning",
+      "opitems:burning_shell",
+      "opitems:spiked",
+      "opitems:ice_aspect",
+      "opitems:blinding",
+      "opitems:lifesteal",
+      "opitems:boss_hunter",
+      "opitems:reinforced",
+      "opitems:bloodbane",
+      "opitems:aegis",
+      "opitems:pull"
+  ]
+}

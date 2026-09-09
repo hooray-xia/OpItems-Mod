@@ -1,0 +1,54 @@
+{
+  "parent": "opitems:one_man_army",
+  "display": {
+    "icon": {
+      "id": "opitems:rainbow_blade"
+    },
+    "title": {
+      "translate": "advancements.opitems.pvp_god.title"
+    },
+    "description": {
+      "translate": "advancements.opitems.pvp_god.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "one_hundred_kills": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "killing_blow": {
+          "is_player": true
+        },
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:player_kills",
+                "value": {
+                  "min": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "one_hundred_kills"
+    ]
+  ],
+  "rewards": {
+    "experience": 2000,
+    "function": "opitems:pvp_god"
+  }
+}

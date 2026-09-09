@@ -1,0 +1,99 @@
+{
+  "description": {
+    "translate": "enchantment.opitems.poison",
+    "color": "green"
+  },
+  "anvil_cost": 10,
+  "max_level": 10,
+  "weight": 2,
+
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 5
+  },
+
+  "slots": [
+    "mainhand"
+  ],
+
+  "supported_items": [
+    "minecraft:wooden_sword",
+    "minecraft:stone_sword",
+    "minecraft:iron_sword",
+    "minecraft:copper_sword",
+    "minecraft:golden_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword",
+    "minecraft:mace",
+    "minecraft:wooden_spear",
+    "minecraft:stone_spear",
+    "minecraft:iron_spear",
+    "minecraft:copper_spear",
+    "minecraft:golden_spear",
+    "minecraft:diamond_spear",
+    "minecraft:netherite_spear",
+    "opitems:dragon_blade",
+    "opitems:rainbow_blade",
+    "opitems:ender_spear",
+    "opitems:wither_blade"
+  ],
+
+  "exclusive_set": [
+    "minecraft:fire_aspect",
+    "opitems:wither"
+  ],
+
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+
+          "to_apply": "minecraft:poison",
+
+          "min_duration": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 1.0
+          },
+
+          "max_duration": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 1.0
+          },
+
+          "min_amplifier": {
+            "type": "minecraft:clamped",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 0.0,
+              "per_level_above_first": 0.35
+            },
+            "min": 0.0,
+            "max": 3.0
+          },
+
+          "max_amplifier": {
+            "type": "minecraft:clamped",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 0.0,
+              "per_level_above_first": 0.45
+            },
+            "min": 0.0,
+            "max": 3.0
+          }
+        }
+      }
+    ]
+  }
+}

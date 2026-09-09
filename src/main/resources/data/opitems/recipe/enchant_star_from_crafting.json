@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ADA",
+    "DND",
+    "ADA"
+  ],
+  "key": {
+    "D": "minecraft:netherite_ingot",
+    "N": "minecraft:nether_star",
+    "A": "minecraft:lapis_block"
+  },
+  "result": {
+    "id": "opitems:enchant_star",
+    "count": 1
+  }
+}

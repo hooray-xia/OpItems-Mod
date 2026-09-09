@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": "advancements.opitems.boss_hunter.title",
+    "description": "advancements.opitems.boss_hunter.description",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:warden"
+        },
+        "killing_blow": {
+          "weapon": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "opitems:boss_hunter"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        },
+        "killing_blow": {
+          "weapon": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "opitems:boss_hunter"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        },
+        "killing_blow": {
+          "weapon": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "opitems:boss_hunter"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["warden"],
+    ["wither"],
+    ["dragon"]
+  ],
+  "rewards": {
+    "experience": 1000,
+    "function": "opitems:boss_hunter_reward"
+  }
+}

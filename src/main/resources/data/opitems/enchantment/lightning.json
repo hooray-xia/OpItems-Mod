@@ -1,0 +1,33 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.opitems.lightning",
+    "color": "yellow"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "opitems:lightning/summon"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 15
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 2
+}

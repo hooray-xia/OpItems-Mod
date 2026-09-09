@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    " R ",
+    " S "
+  ],
+  "key": {
+    "R": "opitems:rainbow_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "opitems:rainbow_blade",
+    "count": 1
+  }
+}

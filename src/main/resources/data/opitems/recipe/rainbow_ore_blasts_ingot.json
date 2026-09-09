@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 7,
+  "cookingtime": 80,
+  "ingredient": "opitems:rainbow_ore",
+  "result": {
+    "id": "opitems:rainbow_ingot"
+  }
+}

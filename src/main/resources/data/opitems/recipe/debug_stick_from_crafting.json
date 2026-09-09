@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#=#",
+    "/LB",
+    "#=#"
+  ],
+  "key": {
+    "#": "minecraft:stick",
+    "=": "minecraft:resin_brick",
+    "/": "minecraft:blaze_rod",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:debug_stick"
+  }
+}

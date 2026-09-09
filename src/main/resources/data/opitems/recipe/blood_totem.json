@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RBR",
+    "TNT",
+    "RBR"
+  ],
+  "key": {
+    "T": "minecraft:totem_of_undying",
+    "B": "minecraft:barrier",
+    "N": "minecraft:nether_star",
+    "R": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "opitems:blood_totem",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "opitems",
+	"version": "1.0.0",
+	"name": "OpItems",
+	"description": "A mod that adds new items to Minecraft! Adds new crafts and uses to previously useless or uncraftable items.",
+	"authors": [
+		"Hooray X."
+	],
+	"contact": {
+		"homepage": "https://github.com/hooray-xia",
+		"sources": "https://github.com/hooray-xia"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/opitems/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.OpItems"
+		],
+		"client": [
+        	"name.modid.client.OpItemsClient"
+    	]
+	},
+	"mixins": [
+		"opitems.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

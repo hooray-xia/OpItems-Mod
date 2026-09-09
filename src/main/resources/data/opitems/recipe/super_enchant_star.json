@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SDS",
+        "DED",
+        "SDS"
+    ],
+    "key": {
+        "S": "minecraft:netherite_scrap",
+        "D": "minecraft:diamond_block",
+        "E": "opitems:enchant_star"
+    },
+    "result": {
+        "id": "opitems:super_enchant_star",
+        "count": 1
+    }
+}

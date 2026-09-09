@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:axolotl",
+    "distance": {
+      "absolute": {
+        "max": 15.0
+      }
+    },
+    "type_specific": {
+      "type": "minecraft:axolotl",
+      "variant": "minecraft:blue"
+    }
+  }
+}

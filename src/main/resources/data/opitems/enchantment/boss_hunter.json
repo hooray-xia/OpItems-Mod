@@ -1,0 +1,80 @@
+{
+  "description": {
+    "translate": "enchantment.opitems.boss_hunter"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 6.0,
+            "per_level_above_first": 6.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:ender_dragon"
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 9.0,
+            "per_level_above_first": 9.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wither"
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 12.0,
+            "per_level_above_first": 12.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:warden"
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": [
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite"
+  ],
+  "max_level": 5,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 8,
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 2,
+  "slots": [
+    "mainhand"
+  ]
+}

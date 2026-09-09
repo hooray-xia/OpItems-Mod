@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
+    },
+    "title": "Blood God",
+    "description": "Complete all 4 trials. Technoblade never dies.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "potato_king": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:baked_potato"]
+        },
+        "count": 2500
+      }
+    },
+    "pvp_god": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "killing_blow": true,
+        "player": {
+          "nbt": "{DeathTime:0s}",
+          "stats": [
+            {
+              "type": "minecraft:killed",
+              "stat": "minecraft:entity_killed_by_player",
+              "value": {
+                "min": 25
+              }
+            }
+          ]
+        }
+      }
+    },
+    "when_pigs_fly": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:pig"
+          },
+          "distance": {
+            "horizontal": {
+              "min": 500
+            }
+          }
+        }
+      }
+    },
+    "great_escape": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "health": {
+            "max": 8.0
+          },
+          "location": {
+            "distance": {
+              "horizontal": {
+                "max": 10.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300,
+    "function": "opitems:blood_god_reward"
+  }
+}

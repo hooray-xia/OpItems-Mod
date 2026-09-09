@@ -1,0 +1,16 @@
+﻿{
+    "key":  {
+                "E":  "minecraft:egg",
+                "M":  "minecraft:gunpowder"
+            },
+    "pattern":  [
+                    "MMM",
+                    "MEM",
+                    "MMM"
+                ],
+    "result":  {
+                   "id":  "minecraft:creeper_spawn_egg",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BE",
+    "oAB",
+    "#o "
+  ],
+  "key": {
+    "#": "minecraft:netherite_spear",
+    "o": "minecraft:netherite_ingot",
+    "A": "minecraft:dragon_head",
+    "E": "minecraft:ender_pearl",
+    "B": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "opitems:ender_spear",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_trim",
+  "addition": "#minecraft:trim_materials",
+  "base": "#minecraft:trimmable_armor",
+  "pattern": "opitems:armor_trim_x",
+  "template": "opitems:armor_trim_x"
+}

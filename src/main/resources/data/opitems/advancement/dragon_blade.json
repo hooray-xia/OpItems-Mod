@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id": "opitems:dragon_blade"
+        },
+        "title": {
+            "translate": "advancements.opitems.dragon_blade.title"
+        },
+        "description": {
+            "translate": "advancements.opitems.dragon_blade.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:end/kill_dragon",
+    "criteria": {
+        "has_dragon_blade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "opitems:dragon_blade"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_dragon_blade"
+        ]
+    ],
+    "rewards": {
+        "experience": 500
+    }
+}

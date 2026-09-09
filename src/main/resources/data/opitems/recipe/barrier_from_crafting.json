@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C#O",
+    "#B#",
+    "O#C"
+  ],
+  "key": {
+    "C": "minecraft:crying_obsidian",
+    "#": "minecraft:iron_bars",
+    "O": "minecraft:obsidian",
+    "B": "minecraft:bedrock"
+  },
+  "result": {
+    "id": "minecraft:barrier"
+  }
+}

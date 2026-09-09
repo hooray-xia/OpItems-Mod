@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:debug_stick"
+        },
+        "title": {
+            "translate": "advancements.opitems.debug-stick.title",
+            "color": "light_purple"
+        },
+        "description": {
+            "translate": "advancements.opitems.debug-stick.description",
+            "color": "gray"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:story/iron_tools",
+    "criteria": {
+        "has_debug_stick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:debug_stick"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_debug_stick"
+        ]
+    ],
+    "rewards": {
+        "experience": 100,
+        "function": "opitems:debug_reward"
+    }
+}

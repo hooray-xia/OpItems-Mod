@@ -1,0 +1,16 @@
+﻿{
+    "key":  {
+                "E":  "minecraft:egg",
+                "M":  "minecraft:iron_sword"
+            },
+    "pattern":  [
+                    "MMM",
+                    "MEM",
+                    "MMM"
+                ],
+    "result":  {
+                   "id":  "minecraft:vex_spawn_egg",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

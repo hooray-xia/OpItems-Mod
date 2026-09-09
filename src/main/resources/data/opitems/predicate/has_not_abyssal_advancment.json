@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "gamemode": "survival",
+    "advancements": {
+      "opitems:the_abyssal_guardian": {
+        "completed": false
+      }
+    }
+  }
+}

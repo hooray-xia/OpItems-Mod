@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:netherite_ingot",
+    "A": "minecraft:apple"
+  },
+  "result": {
+    "id": "opitems:netherite_apple",
+    "count": 1
+  }
+}

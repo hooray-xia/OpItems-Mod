@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "o#"
+  ],
+  "key": {
+    "#": "minecraft:golden_axe",
+    "o": "minecraft:pig_spawn_egg"
+  },
+  "result": {
+    "id": "minecraft:piglin_brute_spawn_egg"
+  }
+}

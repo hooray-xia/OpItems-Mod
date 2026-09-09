@@ -1,0 +1,25 @@
+{
+  "description": {
+    "translate": "enchantment.opitems.spiked",
+    "color": "red"
+  },
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/chest_armor",
+  "weight": 4,
+  "max_level": 10,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:damage_immunity": []
+  }
+}

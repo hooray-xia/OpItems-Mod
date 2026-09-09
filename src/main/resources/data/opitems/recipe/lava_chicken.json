@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 3,
+  "cookingtime": 50,
+  "ingredient": "minecraft:chicken_spawn_egg",
+  "result": {
+    "id": "minecraft:music_disc_lava_chicken"
+  }
+}

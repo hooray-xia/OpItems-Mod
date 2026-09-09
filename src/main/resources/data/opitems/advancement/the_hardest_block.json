@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "advancements.opitems.the-hardest-block.title"
+    },
+    "description": {
+      "translate": "advancements.opitems.the-hardest-block.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/ice_bucket_challenge",
+  "criteria": {
+    "has_bedrock_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bedrock"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bedrock_block"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

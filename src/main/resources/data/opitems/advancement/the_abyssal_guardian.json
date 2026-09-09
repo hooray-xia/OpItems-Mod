@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": { "id": "minecraft:sculk_sensor" },
+    "title": { "translate": "advancements.opitems.the_abyssal_guardian.title", "color": "dark_purple" },
+    "description": { "translate": "advancements.opitems.the_abyssal_guardian.description", "color": "gray" },
+    "frame": "challenge",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "criteria": {
+    "abyssal_guardian": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [["abyssal_guardian"]],
+  "rewards": { "experience": 5000 },
+  "sends_telemetry_event": true
+}

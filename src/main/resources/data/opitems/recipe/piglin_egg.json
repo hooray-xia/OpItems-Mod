@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o"
+  ],
+  "key": {
+    "#": "minecraft:crossbow",
+    "o": "minecraft:pig_spawn_egg"
+  },
+  "result": {
+    "id": "minecraft:piglin_spawn_egg"
+  }
+}

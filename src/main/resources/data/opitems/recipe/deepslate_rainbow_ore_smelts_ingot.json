@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 7,
+  "cookingtime": 150,
+  "ingredient": "opitems:deepslate_rainbow_ore",
+  "result": {
+    "id": "opitems:rainbow_ingot"
+  }
+}

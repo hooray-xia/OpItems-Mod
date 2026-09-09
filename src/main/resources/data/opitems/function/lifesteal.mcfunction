@@ -1,0 +1,5 @@
+execute if items entity @s weapon.mainhand *[minecraft:enchantments~[{enchantments:"opitems:lifesteal",levels:{min:1,max:1}}]] run effect give @s minecraft:instant_health 1 0 true
+execute if items entity @s weapon.mainhand *[minecraft:enchantments~[{enchantments:"opitems:lifesteal",levels:{min:2,max:2}}]] run effect give @s minecraft:instant_health 1 1 true
+execute if items entity @s weapon.mainhand *[minecraft:enchantments~[{enchantments:"opitems:lifesteal",levels:{min:3,max:3}}]] run effect give @s minecraft:instant_health 1 2 true
+execute if items entity @s weapon.mainhand *[minecraft:enchantments~[{enchantments:"opitems:lifesteal",levels:{min:4,max:4}}]] run effect give @s minecraft:instant_health 1 3 true
+execute if items entity @s weapon.mainhand *[minecraft:enchantments~[{enchantments:"opitems:lifesteal",levels:{min:5,max:5}}]] run effect give @s minecraft:instant_health 1 4 true

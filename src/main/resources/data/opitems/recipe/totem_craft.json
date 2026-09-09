@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EGE",
+    "-/-",
+    " O "
+  ],
+  "key": {
+    "E": "minecraft:emerald",
+    "/": "minecraft:blaze_powder",
+    "G": "minecraft:gold_ingot",
+    "-": "minecraft:gold_block",
+    "O": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "minecraft:totem_of_undying"
+  }
+}

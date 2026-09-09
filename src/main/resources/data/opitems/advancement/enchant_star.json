@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "id": "opitems:enchant_star"
+        },
+        "title": {
+            "translate": "advancements.opitems.enchant_star.title",
+            "color": "light_purple"
+        },
+        "description": {
+            "translate": "advancements.opitems.enchant_star.description",
+            "color": "gray"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:story/enchant_item",
+    "criteria": {
+        "has_enchant_star": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "opitems:enchant_star"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_enchant_star"
+        ]
+    ],
+    "rewards": {
+        "experience": 500
+    }
+}

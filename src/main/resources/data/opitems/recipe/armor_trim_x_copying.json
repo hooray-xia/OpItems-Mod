@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NNN",
+        "NEN",
+        "NSN"
+    ],
+    "key": {
+        "E": "opitems:armor_trim_x",
+        "N": "minecraft:diamond",
+        "S": "minecraft:obsidian"
+    },
+    "result": {
+        "id": "opitems:armor_trim_x",
+        "count": 2
+    }
+}

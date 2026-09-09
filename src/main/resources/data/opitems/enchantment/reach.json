@@ -1,0 +1,79 @@
+{
+  "description": {
+    "translate": "enchantment.opitems.reach"
+  },
+  "anvil_cost": 10,
+  "max_level": 5,
+  "weight": 2,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:wooden_pickaxe",
+    "minecraft:stone_pickaxe",
+    "minecraft:iron_pickaxe",
+    "minecraft:copper_pickaxe",
+    "minecraft:golden_pickaxe",
+    "minecraft:diamond_pickaxe",
+    "minecraft:netherite_pickaxe",
+    "minecraft:wooden_axe",
+    "minecraft:stone_axe",
+    "minecraft:iron_axe",
+    "minecraft:copper_axe",
+    "minecraft:golden_axe",
+    "minecraft:diamond_axe",
+    "minecraft:netherite_axe",
+    "minecraft:wooden_shovel",
+    "minecraft:stone_shovel",
+    "minecraft:iron_shovel",
+    "minecraft:copper_shovel",
+    "minecraft:golden_shovel",
+    "minecraft:diamond_shovel",
+    "minecraft:netherite_shovel",
+    "minecraft:wooden_sword",
+    "minecraft:stone_sword",
+    "minecraft:iron_sword",
+    "minecraft:copper_sword",
+    "minecraft:golden_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword",
+    "minecraft:mace",
+    "opitems:dragon_blade",
+    "opitems:rainbow_blade",
+    "opitems:ender_spear",
+    "opitems:wither_blade"
+  ],
+  "exclusive_set": [],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "opitems:reach_block_range",
+        "attribute": "minecraft:block_interaction_range",
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.0,
+          "per_level_above_first": 1.5
+        }
+      },
+      {
+        "id": "opitems:reach_entity_range",
+        "attribute": "minecraft:entity_interaction_range",
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.0,
+          "per_level_above_first": 1.5
+        }
+      }
+    ]
+  }
+}

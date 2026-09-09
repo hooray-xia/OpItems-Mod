@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": "minecraft:pillager_spawn_egg",
+    "o": "minecraft:horse_spawn_egg"
+  },
+  "result": {
+    "id": "minecraft:ravager_spawn_egg"
+  }
+}

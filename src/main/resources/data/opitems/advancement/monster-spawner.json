@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spawner"
+        },
+        "title": {
+            "translate": "advancements.opitems.monster-spawner.title",
+            "color": "dark_purple"
+        },
+        "description": {
+            "translate": "advancements.opitems.monster-spawner.description",
+            "color": "gray"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "opitems:spawn-egg",
+    "criteria": {
+        "has_spawner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:spawner"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_spawner"
+        ]
+    ],
+    "rewards": {
+        "experience": 250
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "opitems:pvp_god",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "text": "Clownpierce"
+    },
+    "description": {
+      "text": "Get 500 player kills"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "one_hundred_kills": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "killing_blow": {
+          "is_player": true
+        },
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:player_kills",
+                "value": {
+                  "min": 500
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "one_hundred_kills"
+    ]
+  ],
+  "rewards": {
+    "experience": 5000,
+    "function": "opitems:clownpierce"
+  }
+}

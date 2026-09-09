@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "opitems:block/compressed_obsidian"
+  },
+  "explosion_resistance": 3600000.0,
+  "hardness": 150.0,
+  "requires_correct_tool_for_drops": true
+}

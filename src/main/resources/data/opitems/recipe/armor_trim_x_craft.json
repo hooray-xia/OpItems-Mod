@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ENE",
+        "NSN",
+        "ENE"
+    ],
+    "key": {
+        "E": "minecraft:echo_shard",
+        "N": "minecraft:netherite_ingot",
+        "S": "minecraft:nether_star"
+    },
+    "result": {
+        "id": "opitems:armor_trim_x",
+        "count": 1
+    }
+}

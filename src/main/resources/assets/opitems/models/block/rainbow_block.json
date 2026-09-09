@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "opitems:block/rainbow_block"
+  },
+  "explosion_resistance": 800.0,
+  "hardness": 70.0,
+  "requires_correct_tool_for_drops": true
+}

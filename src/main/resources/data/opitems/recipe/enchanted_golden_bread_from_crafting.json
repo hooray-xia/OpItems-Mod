@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GOG",
+    "GGG"
+  ],
+  "key": {
+    "G": "minecraft:gold_block",
+    "O": "minecraft:bread"
+  },
+  "result": {
+    "id": "opitems:enchanted_golden_bread",
+    "count": 1
+  }
+}

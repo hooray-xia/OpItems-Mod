@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#I ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": "minecraft:villager_spawn_egg",
+    "I": "minecraft:iron_axe"
+  },
+  "result": {
+    "id": "minecraft:vindicator_spawn_egg"
+  }
+}

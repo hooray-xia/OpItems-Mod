@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "opitems:block/deepslate_rainbow_ore"
+  },
+  "explosion_resistance": 360.0,
+  "hardness": 40.0,
+  "requires_correct_tool_for_drops": true
+}

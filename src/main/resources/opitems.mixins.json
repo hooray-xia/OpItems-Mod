@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "name.modid.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BloodTotemMixin",
+    "LapisHeartMixin",
+    "ReinforcedDurabilityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

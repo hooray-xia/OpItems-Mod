@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "id": "opitems:blood_totem"
+        },
+        "title": {
+            "translate": "advancements.opitems.back-from-death.title",
+            "color": "red"
+        },
+        "description": {
+            "translate": "advancements.opitems.back-from-death.description",
+            "color": "dark_red"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:adventure/totem_of_undying",
+    "criteria": {
+        "has_blood_totem": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "opitems:blood_totem"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_blood_totem"
+        ]
+    ],
+    "rewards": {
+        "experience": 500
+    }
+}

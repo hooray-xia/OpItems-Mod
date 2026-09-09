@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LHL",
+    "LLL"
+  ],
+  "key": {
+    "L": "minecraft:lapis_lazuli",
+    "H": "minecraft:heart_of_the_sea"
+  },
+  "result": {
+    "id": "opitems:lapis_heart",
+    "count": 1
+  }
+}

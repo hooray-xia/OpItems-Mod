@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:emerald_block",
+    "E": "minecraft:apple"
+  },
+  "result": {
+    "id": "opitems:enchanted_emerald_apple",
+    "count": 1
+  }
+}

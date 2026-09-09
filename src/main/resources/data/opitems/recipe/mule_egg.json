@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XG "
+  ],
+  "key": {
+    "X": "minecraft:horse_spawn_egg",
+    "G": "minecraft:wheat_seeds"
+  },
+  "result": {
+    "id": "minecraft:mule_spawn_egg"
+  }
+}

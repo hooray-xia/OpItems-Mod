@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "opitems:dragon_blade",
+    "opitems:wither_blade",
+    "opitems:rainbow_blade"
+  ]
+}

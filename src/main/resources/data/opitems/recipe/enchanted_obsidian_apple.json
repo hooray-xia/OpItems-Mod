@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": "opitems:compressed_obsidian",
+    "A": "minecraft:apple"
+  },
+  "result": {
+    "id": "opitems:enchanted_obsidian_apple"
+  }
+}
